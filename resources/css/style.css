@@ -19,3 +19,12 @@ a {
   color: white;
   line-height: 1.5em;
 }
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h2.designed {
+  font-size: 23px;
+  color: white;
+  background-image: url(../images/the-flatiron-building.png);
+}
