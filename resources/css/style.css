@@ -1,4 +1,4 @@
-body {
+body, p {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   color: black;
@@ -10,7 +10,7 @@ body {
   color: white;
 }
 .header {
-  width: 100%;
+  margin-top: 0;
   background-image: url(../images/the-flatiron-building.png);
 }
 a {
@@ -19,12 +19,21 @@ a {
   color: white;
   line-height: 1.5em;
 }
-h2 {
+h2, h3, h3.designed {
   font-size: 32px;
   font-weight: bold;
 }
-h2.designed {
-  font-size: 23px;
+h3.designed {
   color: white;
   background-image: url(../images/the-flatiron-building.png);
+}
+h3 {
+  font-size: 23px;
+}
+.footer p {
+  color: white;
+  background-color: dimgray;
+}
+.footer a {
+  font-weight: normal;
 }
